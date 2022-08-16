@@ -1,0 +1,23 @@
+version: '3.9'
+services:
+  web:
+    #image: mpherg/blynk-server:latest
+    image: blynk:latest
+    container_name: blynk
+    restart: always
+    ports:
+      - 58080:8080
+      - 58441:8441
+      - 59443:9443
+    networks:
+      - default
+    volumes:
+      - data:/var/data
+
+networks:
+  default:
+    driver: bridge
+
+volumes:
+  data:
+    driver: local
