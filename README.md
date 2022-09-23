@@ -8,7 +8,7 @@ Blynk server is an open source server to be used as back end for IoT projects. I
 
 ### 🥈 Run
 
-- [http://localhost:8080/](http://localhost:8080/) username : `admin` password : `admin`
+- [http://localhost:58080/](http://localhost:58080/) username : `admin` password : `admin`
 
 ```shell
 docker-compose up -d
