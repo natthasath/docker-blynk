@@ -1,8 +1,7 @@
 version: '3.9'
 services:
   web:
-    #image: mpherg/blynk-server:latest
-    image: blynk:latest
+    image: mpherg/blynk-server:latest
     container_name: blynk
     restart: always
     ports:
