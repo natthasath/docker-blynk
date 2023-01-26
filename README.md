@@ -8,7 +8,7 @@ Blynk is an open-source IoT platform that allows building and prototyping IoT pr
 
 ### 🥈 Run
 
-- [http://localhost:58080/](http://localhost:58080/) username : `admin` password : `admin`
+- [http://localhost:8080/](http://localhost:8080/) username : `admin` password : `admin`
 
 ```shell
 docker-compose up -d
