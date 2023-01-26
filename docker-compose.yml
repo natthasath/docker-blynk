@@ -5,9 +5,9 @@ services:
     container_name: blynk
     restart: always
     ports:
-      - 58080:8080
-      - 58441:8441
-      - 59443:9443
+      - ${HTTP_PORT}:8080
+      - ${HTTPS_PORT}:8441
+      - ${WS_PORT}:9443
     networks:
       - default
     volumes:
