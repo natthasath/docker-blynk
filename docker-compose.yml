@@ -15,8 +15,10 @@ services:
 
 networks:
   default:
+    name: docker_blynk_network
     driver: bridge
 
 volumes:
   data:
+    name: docker_blynk_data
     driver: local
